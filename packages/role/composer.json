@@ -1,0 +1,20 @@
+{
+    "name": "sandeep0108/role",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tops\\Role\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sandeep Thakkar",
+            "email": "thakkar.sandeep8@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filament/support": "3.0"
+    }
+}
