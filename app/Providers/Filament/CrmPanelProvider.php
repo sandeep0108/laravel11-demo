@@ -59,6 +59,6 @@ class CrmPanelProvider extends PanelProvider
             ])->plugins([
                 FilamentApexChartsPlugin::make(),
                 HexaLite::make()
-            ]);
+            ])->databaseNotifications();
     }
 }
