@@ -8,5 +8,10 @@ use Hexters\HexaLite\Models\HexaRoleAdmin;
 
 class RoleAdmin extends HexaRoleAdmin
 {
+protected $table='hexa_roles';
 
+protected $fillable = [
+    'name',
+    'status'
+];
 }
